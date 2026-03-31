@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  background-color: #fdfcf9;
+  color: #1b1b18;
+}
+
+@layer base {
+  body {
+    @apply paper-texture bg-background text-on-background overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .paper-texture {
+    position: relative;
+  }
+  
+  .paper-texture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDxZtLPhzBDDK19MLMj8oXJiFE03i9E5W5lzSJ4h82AV7wxad3zNa5CGZ77G7oxbwOSU_dlANA_SodDih82IWwiMMdqhEGyrcCuk9IH_2xR1BlK29s5kjpkjnCNL8eY-PEPN4-dHvKcPMrD8biYW5rRkgLrRBttzW1FOyJs3JWF212N5_nro2rGm5Gj75A1vRvFS1lixaAqpWkBXKUjeAKpo8RLYL163Uhzrc3QjEYcrPpOy2b5nQRmt_dW7DIYnhXal5rLghtSvQE);
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .editorial-shadow {
+    box-shadow: 12px 12px 0px 0px rgba(27, 27, 24, 1);
+  }
+
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .thick-border {
+    border: 2px solid #1b1b18;
+  }
+
+  .text-overlap {
+    letter-spacing: -0.05em;
+  }
+
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(#00000003 1px, transparent 1px), linear-gradient(90deg, #00000003 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
