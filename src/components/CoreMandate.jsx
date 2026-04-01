@@ -31,7 +31,7 @@ const CoreMandate = () => {
                
                <div className="pt-12 border-t border-white/10">
                   <p className="text-2xl md:text-4xl font-medium text-white/90 leading-tight tracking-tight max-w-4xl">
-                     We are an international mentorship group with a focus on helping more <span className="text-accent underline decoration-accent/30 underline-offset-8">women and marginalized genders</span> become active participants and leaders in the Python open-source community.
+                     We are an international mentorship group with a focus on helping <span className="text-accent underline decoration-accent/30 underline-offset-8">everyone</span> become active participants and leaders in the Python open-source community.
                   </p>
                </div>
 
@@ -44,9 +44,9 @@ const CoreMandate = () => {
                >
                   <div className="aspect-[21/9] w-full overflow-hidden border border-white/10 bg-background relative group">
                      <img 
-                        src="/women_engineering_team_bw.png" 
-                        alt="Women in Tech Engineering Team" 
-                        className="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000"
+                        src="/images/community/women_engineering_team_bw.png" 
+                        alt="Engineering Team" 
+                        className="w-full h-full object-cover grayscale brightness-90 group-hover:brightness-100 transition-all duration-1000"
                      />
                      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
                   </div>

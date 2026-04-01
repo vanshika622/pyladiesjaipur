@@ -150,7 +150,7 @@ const Hero = () => {
            </h1>
            
            <p className="text-base md:text-xl text-white/70 font-medium leading-relaxed max-w-2xl drop-shadow-lg mx-auto">
-              The international mentorship group for marginalized genders in tech. We are dedicated to advancing open-source community, education, and <span className="text-white border-b border-primary pb-1 relative z-20">Python engineering</span> in Jaipur.
+              The international mentorship group for everyone in tech. We are dedicated to advancing open-source community, education, and <span className="text-white border-b border-primary pb-1 relative z-20">Python engineering</span> in Jaipur.
            </p>
 
            <div className="flex pt-6 relative z-20 items-center justify-center pointer-events-auto">

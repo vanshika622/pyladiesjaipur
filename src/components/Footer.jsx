@@ -10,11 +10,11 @@ const Footer = () => {
             <img 
               alt="PyLadies Jaipur Logo" 
               className="h-10 md:h-12 w-auto opacity-90 hover:opacity-100 transition-opacity" 
-              src="/logo.png"
+              src="/images/brand/logo.png"
             />
           </a>
           <p className="text-on-surface-variant font-medium leading-relaxed text-sm">
-            An international mentorship group for marginalized genders, such as but not limited to non-binary people, trans people, and women in tech, with a focus on helping our community become active participants and leaders in the Python open-source community.
+            An international mentorship group for everyone in tech with a focus on helping our community become active participants and leaders in the Python open-source community.
           </p>
           <div className="flex gap-6">
             {[

@@ -7,13 +7,13 @@ const Architects = () => {
       name: "Ritu Soni",
       role: "Founder // AI Strategist",
       stack: ["Python Core", "Deep Learning", "Community Architecture"],
-      img: "/ritu.png"
+      img: "/images/people/Ritu-Soni.avif"
     },
     {
       name: "Vanshika Jain",
       role: "Lead // Software Engineer",
       stack: ["Distributed Systems", "Cloud Architecture", "Backend Engineering"],
-      img: "/vanshika.png"
+      img: "/images/people/Vanshika-Jain.png"
     }
   ];
 
@@ -46,7 +46,7 @@ const Architects = () => {
                   <div className="w-full h-full relative overflow-hidden">
                      <img 
                        alt={leader.name} 
-                       className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000" 
+                       className="w-full h-full object-cover grayscale brightness-75 group-hover:brightness-100 transition-all duration-1000" 
                        src={leader.img}
                      />
                      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>

@@ -33,7 +33,7 @@ const Chronicle = () => {
         <div className="lg:col-span-3 hidden lg:block sticky top-32 h-fit">
           <div className="flex flex-col gap-6 opacity-80">
             <h2 className="font-headline font-black text-4xl tracking-tighter vertical-text text-white uppercase italic">
-              COMMUNITY
+              OUR PROGRAMS
             </h2>
             <div className="w-[1px] h-40 bg-primary ml-6"></div>
           </div>
@@ -74,8 +74,8 @@ const Chronicle = () => {
           {/* High-Fidelity Community Gallery */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-24">
             {[
-              { img: "/community_01.jpg" },
-              { img: "/community_02.jpg" }
+              { img: "/images/community/community_01.jpg" },
+              { img: "/images/community/community_02.jpg" }
             ].map((shot, idx) => (
               <motion.div 
                 key={idx}
@@ -87,7 +87,7 @@ const Chronicle = () => {
                 <img 
                   src={shot.img} 
                   alt="Community in action" 
-                  className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-1000" 
+                  className="w-full h-full object-cover grayscale brightness-75 group-hover:brightness-100 transition-all duration-1000" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-40"></div>
               </motion.div>

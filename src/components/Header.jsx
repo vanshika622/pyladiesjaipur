@@ -19,7 +19,7 @@ const Header = () => {
           <img 
             alt="PyLadies Jaipur Logo" 
             className="h-5 md:h-6 w-auto opacity-90 hover:opacity-100 transition-opacity" 
-            src="/logo.png"
+            src="/images/brand/logo.png"
           />
         </a>
 

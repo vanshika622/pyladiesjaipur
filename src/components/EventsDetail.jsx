@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const EventsDetail = () => {
   const eventCategories = [
     {
-      title: "UPCOMING_CHRONICLES_2026",
+      title: "EVENT_SCHEDULE_2026",
       events: [
         { name: "Python for Neural Networks", date: "April 15, 2026", type: "WORKSHOP", status: "UPCOMING" },
         { name: "Jaipur Open Source Summit", date: "May 22, 2026", type: "CONFERENCE", status: "UPCOMING" }
@@ -38,12 +38,12 @@ const EventsDetail = () => {
           >
             <div>
                <h2 className="font-headline font-black text-4xl md:text-7xl tracking-tighter text-white uppercase mb-12">
-                  OUR <span className="text-accent italic underline decoration-accent/20 underline-offset-8">PROGRAMS</span>
+                  UPCOMING <span className="text-accent italic underline decoration-accent/20 underline-offset-8">EVENTS</span>
                </h2>
                
                <div className="pt-12 border-t border-white/10">
                   <p className="text-2xl md:text-4xl font-medium text-white/90 leading-tight tracking-tight max-w-4xl">
-                      Our hub for all upcoming mentorship sessions, workshops, and community-driven events in Jaipur.
+                      Your schedule for technical deep-dives, mentorship sessions, and open-source gatherings in Jaipur.
                   </p>
                </div>
             </div>
