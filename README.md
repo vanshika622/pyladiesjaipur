@@ -1,25 +1,33 @@
 # PyLadies Jaipur
 
-## How to Run
+## Getting Started
 
-1. **Install dependencies**:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shaktisingh404/pyladiesjaipur.git
+   cd pyladiesjaipur
+   ```
+
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. **Start development server**:
-   ```bash
-   npm run dev
-   ```
+## How to Run
+
+- **Start development server**:
+  ```bash
+  npm run dev
+  ```
 
 ## How to Build
 
-1. **Create production build**:
-   ```bash
-   npm run build
-   ```
+- **Create production build**:
+  ```bash
+  npm run build
+  ```
 
-2. **Preview production build**:
-   ```bash
-   npm run preview
-   ```
+- **Preview production build**:
+  ```bash
+  npm run preview
+  ```
