@@ -1,10 +1,10 @@
-# PyLadies Jaipur ✦ Cyber-Editorial Platform
+# PyLadies Jaipur
 
 A high-fidelity, minimalist landing page for the **PyLadies Jaipur** community. Built with a "Quiet Luxury" aesthetic, this platform serves as the digital chronicle and resource hub for our mission to foster inclusivity and diversity within the Python ecosystem.
 
 ---
 
-## ✦ Vision & Aesthetic
+## Vision & Aesthetic
 Our digital presence is designed around the **Cyber-Editorial** concept:
 - **Minimalist Design**: Clean layouts with a focus on "White Space" and "Quiet Luxury".
 - **Advanced Physics**: Interactive physics-based UI elements powered by `Matter.js`.
@@ -13,7 +13,7 @@ Our digital presence is designed around the **Cyber-Editorial** concept:
 
 ---
 
-## ✦ Architecture & Stack
+## Architecture & Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -25,7 +25,7 @@ Our digital presence is designed around the **Cyber-Editorial** concept:
 
 ---
 
-## ✦ Key Components
+## Key Components
 
 - **Digital Hero**: A physics-sandbox interface for interactive engagement.
 - **Chronicle**: A multi-faceted record of our community history and events.
@@ -35,7 +35,7 @@ Our digital presence is designed around the **Cyber-Editorial** concept:
 
 ---
 
-## ✦ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -44,7 +44,7 @@ Our digital presence is designed around the **Cyber-Editorial** concept:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pyladies-jaipur/landing-page.git
+   git clone https://github.com/vanshika622/pyladiesjaipur.git
 2. Install dependencies:
    ```bash
    npm install
@@ -55,7 +55,7 @@ Our digital presence is designed around the **Cyber-Editorial** concept:
 
 ---
 
-## ✦ Design System
+## Design System
 We adhere to a strict design language defined in `src/index.css`:
 - **Background**: `#fdfcf9` (Off-white / Paper Texture)
 - **Primary Text**: `#1b1b18` (Obsidian)
