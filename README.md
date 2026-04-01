@@ -3,8 +3,9 @@
 ## Getting Started
 
 1. **Clone the repository**:
+
    ```bash
-   git clone https://github.com/shaktisingh404/pyladiesjaipur.git
+   git clone https://github.com/vanshika622/pyladiesjaipur.git
    cd pyladiesjaipur
    ```
 
@@ -23,6 +24,7 @@
 ## How to Build
 
 - **Create production build**:
+
   ```bash
   npm run build
   ```
